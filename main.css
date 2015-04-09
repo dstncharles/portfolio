@@ -28,8 +28,30 @@
   margin: 0;
   left: 0;
   top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
 }
 
 img {
   border: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  nav {
+  padding: 0px 0px 0px 0px;
+  max-width: 1165px;
+  min-width: 510px;
+  margin: 0px auto;
+  position: relative;
+  z-index: 999;
+  margin-top: -20px;
+  top: 50px;
+  right: 10px;
 }
